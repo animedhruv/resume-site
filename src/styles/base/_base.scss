@@ -2,9 +2,18 @@ html {
     font-size: 62.5%
 }   
 
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
 .no-extra-space{
     margin: 0;
     padding: 0;
+}
+
+.black-color-font{
+    color: black;
 }
 
 .hand-cursor{
@@ -13,6 +22,10 @@ html {
 
 .center-align{
     text-align: center;
+}
+
+.small-top-padding{
+    padding-top: 0.6rem;
 }
 
 .medium-top-padding{
@@ -46,8 +59,8 @@ html {
 }
 
 .heading-bar-text{
-    padding-top: 6rem;
-    font-size: 4.8rem;
+    padding-top: 3.6rem;
+    font-size: 4.4rem;
     font-family: 'Karla', sans-serif;
     color: white;
     text-align: center;
@@ -73,6 +86,8 @@ html {
 
 .footer-section{
     position: fixed;
+    font-size: 1.2rem;
+    padding-bottom: 0.5rem;
     bottom: 0%;
     width: 100%;
     background-color: black;
@@ -80,5 +95,81 @@ html {
 }
 
 .robot-font{
+    font-family: 'Fira Mono', monospace;
+}
+
+.header-other-pages{
+    background-color: black;
+    padding-bottom: 1.2rem;
+    color: white;
+}
+
+.header-other-items{
+    padding-top: 1.2rem;
+}
+
+.self-name-header{
+    font-size: 2.5rem;
+    font-family: 'Karla', sans-serif;
+}
+
+.section-intro-container{
+    padding-top: 3rem;
+}
+
+.section-intro{
+    font-size: 1.5rem;
+    color: black;
+    font-family: 'Karla', sans-serif;
+}
+
+.content-breaker{
+    padding-top: 1.2rem;
+}
+
+.project-heading{
+    font-size: 2rem;
+    font-family: 'Fira Mono', monospace;
+    color: black;
+}
+
+.project-description-brief{
+    padding-top: 1rem;
+    color: #333333;
+    font-family: 'Karla', sans-serif;
+    font-size: 1.5rem;
+}
+
+.keywords-bar{
+    padding-top: 2rem;
+    font-family: 'Fira Mono', monospace;
+}
+
+.bar-404{
+    padding-top: 6rem;
+}
+
+.text-404{
+    font-size: 12rem;
+    font-family: 'Fira Mono', monospace;
+    color: #333333;
+    font-weight: 500;
+}
+
+.take-to-home-text{
+    font-size: 2rem;
+    color: black;
+    font-family: 'Karla', sans-serif;
+}
+
+.quote-block{
+    padding-top: 6rem;
+    font-size: 2rem;
+    color: black;
+    font-family: 'Karla', sans-serif;
+}
+
+.author-text{
+    font-size: 1.6rem;
     font-family: 'Fira Mono', monospace;
 }

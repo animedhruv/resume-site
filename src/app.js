@@ -4,6 +4,6 @@ import ReactDOM from 'react-dom'
 import 'normalize.css/normalize.css'
 import './styles/styles.scss'
 
-import MainApp from './components/MainApp'
+import AppRouter from './router/AppRouter'
 
-ReactDOM.render(<MainApp />,document.getElementById('app'))
+ReactDOM.render(<AppRouter />,document.getElementById('app'))
