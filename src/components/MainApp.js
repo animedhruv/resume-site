@@ -61,7 +61,9 @@ export default class MainApp extends React.Component{
                             </i>
                             <span className="author-text">
                                 - Unknown
-                            </span>        
+                            </span>
+                            <br/><br/>
+                            <p></p>        
                         </Col>
                     </Row>
                 </div>

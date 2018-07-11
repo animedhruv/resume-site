@@ -77,6 +77,8 @@ export default class ProjectsApp extends React.Component{
                                 </a>
                             </Col>
                         </Row>
+                        <br/>
+                        <p></p>
                     </div>
 
                     <br/>
